@@ -1,0 +1,25 @@
+uuid: ee8abae2-cd64-4bed-8e22-99f42e6a106e
+langcode: en
+status: true
+dependencies:
+  module:
+    - custom_module
+    - system
+  theme:
+    - olivero
+id: articleblock
+theme: olivero
+region: highlighted
+weight: 0
+provider: null
+plugin: article_block
+settings:
+  id: article_block
+  label: 'Article block'
+  label_display: visible
+  provider: custom_module
+visibility:
+  request_path:
+    id: request_path
+    negate: false
+    pages: '<front>'
