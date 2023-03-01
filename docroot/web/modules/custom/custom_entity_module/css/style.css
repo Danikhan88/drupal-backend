@@ -2,7 +2,7 @@
   color: red !important;
 }
 .btn{
-  background-color: rgb(21, 21, 136);
+  background-color: black;
   color: white;
   text-decoration: none;
   padding: 6px 20px;
@@ -10,7 +10,7 @@
   transition: ease-in-out 0.8s;
 }
 .btn:hover{
-  background-color: blueviolet;
+  background-color: whitesmoke;
   color: black;
 }
 .btn:focus{
