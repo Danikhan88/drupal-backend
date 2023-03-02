@@ -1,8 +1,8 @@
 .views-table{
-  color: red !important;
+  color: blue !important;
 }
 .btn{
-  background-color: black;
+  background-color: rgb(21, 21, 136);
   color: white;
   text-decoration: none;
   padding: 6px 20px;
@@ -10,9 +10,9 @@
   transition: ease-in-out 0.8s;
 }
 .btn:hover{
-  background-color: whitesmoke;
+  background-color: blueviolet;
   color: black;
 }
 .btn:focus{
   outline: none;
-}
+} 
